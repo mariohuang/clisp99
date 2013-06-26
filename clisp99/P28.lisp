@@ -1,6 +1,5 @@
 #!/usr/bin/clisp
 
-(load "P17.lisp")
 (load "merge-sort.lisp")
 
 (defun cmp-func (elea eleb)

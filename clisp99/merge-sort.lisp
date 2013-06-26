@@ -1,5 +1,7 @@
 #!/usr/bin/clisp
 
+(load "P17.lisp")
+
 (defun merge-list (lista listb cmp-func)
 (cond ((eql lista nil) listb)
       ((eql listb nil) lista)
